@@ -1,7 +1,7 @@
 /* font settings START */
 
 h1 {
-    font-size: 3.7rem;
+    font-size: 6.5rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: antiquewhite;
@@ -20,11 +20,10 @@ h4 {
     font-weight: 200;
 }
 
-
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
     h1 {
-        font-size: 3rem;
+        font-size: 7rem;
     }
 
     /*1rem = 16px*/
@@ -104,12 +103,29 @@ h4 {
 }
 
 #website-version-button {
-    color: white;
+    color: antiquewhite;
     border-width: 0px;
 }
 
+/*
+
+.nav-links-design,
+.nav-links-design:focus,
+.nav-links-design:hover {
+    color: #fff;
+}
+
+*/
+
+
+
+
+
+
 body {
     background: #362A46 !important;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 .progress {
@@ -121,9 +137,26 @@ body {
     background-color: #708090 !important;
 }
 
-
-.link-buttons-custom {
-    background-color: #3AAFA9;
-    border: 0px;
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+    font-size: 1.4rem;
     color: white;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
 }
