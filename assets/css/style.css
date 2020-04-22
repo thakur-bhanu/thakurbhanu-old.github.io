@@ -1,7 +1,7 @@
 /* font settings START */
 
 h1 {
-    font-size: 6.2rem;
+    font-size:6rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: antiquewhite;
@@ -94,9 +94,27 @@ h4 {
 
 /* font settings END */
 
-#home {
+#section-Home{
     background-color: #F76D6D;
 }
+
+#section-Skills {
+    background-color: slategrey;
+}
+
+#section-Experience {
+    background-color: blueviolet;
+}
+
+#section-Profile{
+    background-color: teal;
+}
+
+#section-Contact{
+    background-color: burlywood;
+}
+
+
 
 #home-content {
     padding-top: 30px;
@@ -106,18 +124,6 @@ h4 {
     color: antiquewhite;
     border-width: 0px;
 }
-
-/*
-
-.nav-links-design,
-.nav-links-design:focus,
-.nav-links-design:hover {
-    color: #fff;
-}
-
-*/
-
-
 
 
 
