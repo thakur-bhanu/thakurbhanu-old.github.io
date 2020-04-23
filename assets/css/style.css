@@ -7,14 +7,14 @@
 
 
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: #ececec;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: #ececec;
@@ -30,7 +30,7 @@ h4 {
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
     h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     /*1rem = 16px*/
@@ -101,6 +101,21 @@ h4 {
 
 /* font settings END */
 
+#section-Skills {
+    background-color: burlywood;
+}
+
+#section-Experience {
+    background-color: #30475e;
+}
+
+#section-Contact {
+    background-color: teal;
+}
+
+
+
+
 
 #home-content {
     padding-top: 3rem;
@@ -124,7 +139,6 @@ h4 {
 body {
     background: #222831 !important;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 .progress {
@@ -142,7 +156,6 @@ body {
     font-weight: 200;
     font-size: 1.3rem;
     color: white;
-    background-color: transparent;
     border-bottom: .25rem solid transparent;
 }
 
@@ -161,6 +174,9 @@ body {
 }
 
 
+#myDiv {
+    background-color: #30475e;
+}
 
 #section-footer {
     background-color: #010101;
@@ -168,4 +184,47 @@ body {
 
 #h2-footer {
     margin-bottom: 0;
+}
+
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
+#first-col {
+    background-color: slategrey;
+}
+
+#second-col {
+    background-color: blue;
+}
+
+#third-col {
+    background-color: navajowhite;
+}
+
+#fourth-col {
+    background-color: teal;
+}
+
+
+#sticky-header-topp {
+    background-color: blueviolet;
+}
+
+
+#website-version {
+    margin-bottom: 0;
+}
+
+
+
+#home-structure {
+    margin-top: 0;
 }
