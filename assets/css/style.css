@@ -1,13 +1,9 @@
-
-
-
 /*for use with scroll-Jquery*/
 *:focus {
     outline: none !important
 }
+
 /*for use with scroll end*/
-
-
 
 
 body {
@@ -25,11 +21,9 @@ div.sticky {
 }
 
 
-
 .home-buttons {
     color: white !important;
 }
-
 
 
 .nav-masthead .nav-link {
@@ -56,11 +50,9 @@ div.sticky {
 }
 
 
-
 #home-structure {
     margin-top: 0;
 }
-
 
 
 #home-content {
@@ -72,7 +64,6 @@ div.sticky {
     background-color: #30475e;
     margin-bottom: 0;
 }
-
 
 
 #website-version-button {
@@ -108,7 +99,7 @@ div.sticky {
 }
 
 #section-Experience {
-    background-color: #30475e;
+    background-color: darkslateblue;
 }
 
 #section-Contact {
@@ -116,9 +107,8 @@ div.sticky {
 }
 
 #section-Profile {
-    background-color: darkgreen;
+    background-color: #30475e;
 }
-
 
 
 #myDiv {
@@ -134,14 +124,8 @@ div.sticky {
 }
 
 
-
-
-
-
-
-
 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     color: #ececec;
@@ -234,3 +218,47 @@ h4 {
 }
 
 /* font settings END */
+
+
+#skills {
+    padding: 100px 15px;
+    text-align: center;
+}
+
+#skills h2 {
+    color: #374054;
+    margin-bottom: 40px;
+}
+
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1000px;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+}
+
+#skills li:hover {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: white;
+    background: #732f69;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+}
+
+.background-alt {
+    background-color: black;
+}
