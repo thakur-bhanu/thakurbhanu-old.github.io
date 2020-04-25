@@ -141,9 +141,55 @@ h2 {
 h4 {
     color: antiquewhite;
     font-family: 'Rubik', sans-serif;
-    color: #ececec;
     font-weight: 200;
 }
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) {
+    h1 {
+        font-size: 3.8rem;
+    }
+
+    /*1rem = 16px*/
+}
+
+
+@media (min-width: 350px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    /*1rem = 16px*/
+}
+
+
+
+@media (min-width: 375px) {
+    h1 {
+        font-size: 5.5rem;
+    }
+
+    /*1rem = 16px*/
+}
+
+
+
+@media (min-width: 410px) {
+    h1 {
+        font-size: 6rem;
+    }
+
+    /*1rem = 16px*/
+}
+
+
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {
@@ -154,10 +200,10 @@ h4 {
     /*1rem = 16px*/
 }
 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
     h1 {
-        font-size: 5rem;
+        font-size: 5.5rem;
     }
 
     /*1rem = 16px*/
@@ -181,19 +227,68 @@ h4 {
     /*1rem = 16px*/
 }
 
-/* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {
-    h2 {
-        font-size: 2rem;
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) {
+    h4 {
+        font-size: 1rem;
     }
 
     /*1rem = 16px*/
 }
 
-/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 350px) {
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    /*1rem = 16px*/
+}
+
+
+
+@media (min-width: 375px) {
+    h4 {
+        font-size: 1.3rem;
+    }
+
+    /*1rem = 16px*/
+}
+
+
+
+@media (min-width: 410px) {
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    /*1rem = 16px*/
+}
+
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    /*1rem = 16px*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    h2 {
-        font-size: 3rem;
+    h4 {
+        font-size: 1.6rem;
     }
 
     /*1rem = 16px*/
@@ -201,8 +296,8 @@ h4 {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    h2 {
-        font-size: 5rem;
+    h4 {
+        font-size: 1.8rem;
     }
 
     /*1rem = 16px*/
@@ -210,14 +305,15 @@ h4 {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    h2 {
-        font-size: 6rem;
+    h4 {
+        font-size: 2rem;
     }
 
     /*1rem = 16px*/
 }
 
-/* font settings END */
+
+
 
 
 #skills {
